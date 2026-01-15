@@ -95,7 +95,7 @@ gx = np.cos(np.linspace(0,definition) / (definition) * 2*np.pi) * radiusRing
 gy = np.sin(np.linspace(0,definition) / (definition) * 2*np.pi) * radiusRing
 gz = 0
 
-ay = fig.gca(projection='3d')
+ay = fig.gca()
 
 ax.set_xlim(-7,7)
 ax.set_ylim(-7,7)
